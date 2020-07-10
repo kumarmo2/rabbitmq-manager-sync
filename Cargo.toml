@@ -1,0 +1,12 @@
+[package]
+name = "rabbitmq-manager-sync"
+version = "0.1.0"
+authors = ["kumarmo2 <kr.mohit6794@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+connection-pool = {git = "https://github.com/kumarmo2/connection-pool.git", branch = "c-finalizing"}
+lapin = "0.39.7"
+smol = "0.1.4"
